@@ -1,0 +1,22 @@
+.card {
+    background-color: white;
+    border: 1px solid #e2e8f0;
+    border-radius: 8px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+    /* Very subtle shadow */
+    overflow: hidden;
+}
+
+.card-title {
+    padding: 16px 24px;
+    margin: 0;
+    border-bottom: 1px solid #e2e8f0;
+    font-family: var(--font-heading);
+    font-size: 1.125rem;
+    color: var(--color-navy);
+    background-color: #f8fafc;
+}
+
+.card-content {
+    padding: 24px;
+}

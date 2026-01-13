@@ -1,0 +1,26 @@
+:root {
+  /* Brand Colors */
+  --color-navy: #0F172A;
+  --color-slate: #F8FAFC;
+  --color-teal: #0D9488;
+  --color-amber: #B45309;
+  --color-rose: #BE123C;
+
+  /* Fonts */
+  --font-heading: 'Merriweather', serif;
+  --font-body: 'Inter', sans-serif;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: var(--font-body);
+  background-color: var(--color-slate);
+  color: var(--color-navy);
+  -webkit-font-smoothing: antialiased;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-heading);
+  font-weight: 700;
+}
